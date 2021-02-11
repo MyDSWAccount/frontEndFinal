@@ -3,7 +3,8 @@ $(document).ready(function() {
                 $(".CSSEdit").slideToggle("slow");
         });
         $("#jsq").click(function(){
-                $("#fi").fadeIn("slow", function(){
+                $("#fi").fadeIn("slow");
+                $("#fo").fadeIn("slow", function(){
                         $("#fo").fadeOut("slow");
                 });
         });
