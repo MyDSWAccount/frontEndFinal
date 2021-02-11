@@ -3,9 +3,10 @@ $(document).ready(function() {
                 $(".CSSEdit").slideToggle("slow");
         });
         $("#jsq").click(function(){
-                $("#fi").fadeIn("slow");
-                $("#fo").fadeIn("slow", function(){
-                        $("#fo").fadeOut("slow");
-                });
+                $("#fi").fadeIn("slow", function(){ 
+                        $("#fo").fadeIn("slow", function(){
+                                $("#fo").fadeOut("slow");
+                        });
+                });         
         });
 });
