@@ -10,7 +10,7 @@ $(document).ready(function() {
                 });         
         });
         var count;
-        $
+        
         $("#h1cue").click(function()
         {
            $("#html_dm1_cue").fadeIn(function();
