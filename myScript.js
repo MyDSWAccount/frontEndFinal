@@ -11,11 +11,14 @@ $(document).ready(function() {
                 });         
         });
         
-        var count=0;
+        var count;
+        count = 0;
+        /*
         $("#lb").click(function(){
                 count++;
-        });
-        if(count == 0 || count == 2 || count == 4)
+        });*/
+        
+        if(count == 0)
         {
                 $("body").css("background-color": "steelBlue");
         } else
