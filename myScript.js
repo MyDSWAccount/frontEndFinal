@@ -18,14 +18,14 @@ $(document).ready(function() {
                 count++;
         });
         
-        if(count == 0)
+        if(count != 0)
         {
                 $("body").css({"background-color": "steelBlue"});
-        } else
+        } /*else
         {
                 $("body").css({"background-color": "skyBlue"});
         }
-        /*
+        
         $("#h1cue").click(function(){
            $("#html_dm1_cue").fadeIn("slow");
         });
