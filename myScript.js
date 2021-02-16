@@ -12,10 +12,18 @@ $(document).ready(function() {
         });
         
         var count=0;
-        if($("
-        
-        $("#h1cue").click(function()
+        $("#lb").click(function(){
+                count++;
+        });
+        if(count != 0 && count == even)
         {
-           $("#html_dm1_cue").fadeIn(function();
+                $("body").css("background-color": "steelBlue");
+        } else
+        {
+                $("body").css("background-color": "skyBlue");
         }
+        
+        $("#h1cue").click(function(){
+           $("#html_dm1_cue").fadeIn("slow");
+        });
 });
