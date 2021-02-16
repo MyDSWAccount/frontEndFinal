@@ -13,17 +13,17 @@ $(document).ready(function() {
         
         var count;
         count = 0;
-        /*
+        
         $("#lb").click(function(){
                 count++;
-        });*/
+        });
         
         if(count == 0)
         {
-                $("body").css("background-color": "steelBlue");
+                $("body").css({"background-color": "steelBlue"});
         } else
         {
-                $("body").css("background-color": "skyBlue");
+                $("body").css({"background-color": "skyBlue"});
         }
         /*
         $("#h1cue").click(function(){
