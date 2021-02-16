@@ -15,7 +15,7 @@ $(document).ready(function() {
         $("#lb").click(function(){
                 count++;
         });
-        if(count != 0 && count == even)
+        if(count == 0 || count == 2 || count == 4)
         {
                 $("body").css("background-color": "steelBlue");
         } else
