@@ -20,10 +20,10 @@ $(document).ready(function() {
                 count++;
         });
         
-        if(count != 0 && count == 2)
+        if(count % 2 == 0)
         {
                 $("body").css({"background-color": "steelBlue"});
-        } else if(count != 0)
+        } else
         {
                 $("body").css({"background-color": "skyBlue"});
         }
