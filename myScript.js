@@ -25,9 +25,10 @@ $(document).ready(function() {
         {
                 $("body").css({"background-color": "skyBlue"});
         }
+        */
         
         $("#h1cue").click(function(){
-           $("#html_dm1_cue").fadeIn("slow");
+           $("#html_img1_cue").fadeIn("slow");
         });
-        */
+        
 });
