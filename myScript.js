@@ -20,7 +20,7 @@ $(document).ready(function() {
                 count++;
         });
         
-        if(count != 0)
+        if(count == 0)
         {
                 $("body").css({"background-color": "steelBlue"});
         } else
