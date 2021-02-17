@@ -28,7 +28,7 @@ $(document).ready(function() {
         */
         
         $("#h1cue").click(function(){
-           $("#html_img1_cue").fadeIn("slow");
+           $("#html_img1").fadeIn("slow");
         });
         
 });
