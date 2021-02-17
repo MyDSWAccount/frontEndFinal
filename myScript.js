@@ -18,8 +18,6 @@ $(document).ready(function() {
         
         $("#bkgdb").click(function(){
                 count++;
-        });
-        
         if(count % 2 == 0)
         {
                 $("body").css({"background-color": "steelBlue"});
@@ -27,6 +25,9 @@ $(document).ready(function() {
         {
                 $("body").css({"background-color": "skyBlue"});
         }
+        });
+        
+        
         
         $("#h1cue").click(function(){
            $("#html_img1").fadeIn("slow");
