@@ -17,7 +17,7 @@ $(document).ready(function() {
         count = 0;
         
         $("#bkgdb").click(function(){
-                $(count++);
+                count++;
         });
         
         if(count != 0)
