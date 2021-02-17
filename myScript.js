@@ -16,7 +16,7 @@ $(document).ready(function() {
         var count;
         count = 0;
         
-        $("#lb").click(function(){
+        $("#bkgdb").click(function(){
                 count++;
         });
         
