@@ -17,10 +17,10 @@ $(document).ready(function() {
         count = 0;
         
         $("#bkgdb").click(function(){
-                count++;
+                $(count++);
         });
         
-        if(count == 1)
+        if(count != 0)
         {
                 $("body").css({"background-color": "steelBlue"});
         } else
