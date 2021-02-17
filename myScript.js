@@ -6,7 +6,9 @@ $(document).ready(function() {
         $("#jsq").click(function(){
                 $("#fi").fadeIn("slow", function(){ 
                         $("#fo").fadeIn("slow", function(){
-                                $("#fo").delay(800).fadeOut("slow");
+                                $("#fo").delay(800).fadeOut("slow", function(){
+                                        $("#fo").show();
+                                });
                         });
                 });         
         });
