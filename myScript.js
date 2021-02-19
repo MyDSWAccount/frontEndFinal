@@ -26,11 +26,8 @@ $(document).ready(function() {
                 $("body").css({"background-color": "skyBlue"});
         }
         });
-        
-        
-        
+            
         $("#h1cue").click(function(){
            $("#html_img1").fadeIn("slow");
-        });
-        
+        });    
 });
